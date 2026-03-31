@@ -1,38 +1,38 @@
 # ConcurrencyInGo
 
-Repositório de exemplos e projetos em Go focados em concorrência, canais, mutexes e padrões de sincronização.
+Repository of Go examples and projects focused on concurrency, channels, mutexes, and synchronization patterns.
 
-## Estrutura do repositório
+## Repository structure
 
-- `01.FirstExample/`: exemplo inicial de goroutines e comunicação básica.
-- `02.WaitGroups/`: uso de `sync.WaitGroup` para sincronizar goroutines.
-- `03.TestingGoRoutines/first-example/`: testes e código para goroutines em Go.
-- `04.Challenge01/challenge-1/`: desafio sobre controle de concorrência e sincronização.
-- `05.RaceConditions/`: demonstração de condição de corrida e como detectar/evitar.
-- `06.Mutex/`: exemplo de uso de `sync.Mutex` para proteção de dados compartilhados.
-- `07.WeeklyIncomeCalculator/`: calculadora de renda semanal com concorrência.
-- `08.ProducerConsumerProblem.Channels/`: solução do problema produtor-consumidor com canais.
-- `09.DiningProblem/`: problema dos filósofos jantando (Dining Philosophers) e testes relacionados.
-- `10.SimpleChannels/`: manipulação básica de canais e sinais.
-- `11.ChannelSelect/`: utilização de `select` para multiplexação de canais.
-- `12.BufferedChannels/`: canais com buffer e efeitos no fluxo de dados.
-- `13.SleepingBarber/`: implementação do problema do barbeiro dorminhoco.
-- `14.FinalProject/`: aplicação completa com servidor web, modelo de dados, rotas, templates e testes.
+- `01.FirstExample/`: initial example of goroutines and basic communication.
+- `02.WaitGroups/`: using `sync.WaitGroup` to synchronize goroutines.
+- `03.TestingGoRoutines/first-example/`: tests and code for goroutines in Go.
+- `04.Challenge01/challenge-1/`: challenge exercise for concurrency control and synchronization.
+- `05.RaceConditions/`: demonstration of race conditions and how to detect/avoid them.
+- `06.Mutex/`: example using `sync.Mutex` for protecting shared data.
+- `07.WeeklyIncomeCalculator/`: concurrent weekly income calculator.
+- `08.ProducerConsumerProblem.Channels/`: producer-consumer problem solution using channels.
+- `09.DiningProblem/`: dining philosophers problem with tests.
+- `10.SimpleChannels/`: basic channel operations and signaling.
+- `11.ChannelSelect/`: using `select` for channel multiplexing.
+- `12.BufferedChannels/`: buffered channels and their effects on data flow.
+- `13.SleepingBarber/`: sleeping barber problem implementation.
+- `14.FinalProject/`: complete web application with data models, routes, templates, and tests.
 
-## Como usar
+## How to use
 
-Cada subdiretório contém um módulo Go independente (`go.mod`) ou uma subpasta de módulo.
+Each subdirectory contains an independent Go module (`go.mod`) or a submodule directory.
 
-1. Acesse o projeto desejado:
+1. Navigate to the desired project:
    - `cd 01.FirstExample`
    - `cd 02.WaitGroups`
    - etc.
 
-2. Execute o exemplo ou teste:
-   - `go run main.go` (quando houver)
-   - `go test ./...` (para rodar testes)
+2. Run the example or tests:
+   - `go run main.go` (when available)
+   - `go test ./...` (to run tests)
 
-## Links para acesso rápido
+## Quick access links
 
 - [01.FirstExample](01.FirstExample/)
 - [02.WaitGroups](02.WaitGroups/)
@@ -49,7 +49,7 @@ Cada subdiretório contém um módulo Go independente (`go.mod`) ou uma subpasta
 - [13.SleepingBarber](13.SleepingBarber/)
 - [14.FinalProject](14.FinalProject/)
 
-## Observações
+## Notes
 
-- O projeto `14.FinalProject` contém app web com bancos de dados, Docker Compose e testes mais completos.
-- Para cada exemplo, recomenda-se inspecionar o `main.go` e arquivos de teste para entender o comportamento concorrente.
+- The `14.FinalProject` project includes a web app with database support, Docker Compose, and more extensive tests.
+- For each example, review `main.go` and test files to understand the concurrent behavior.
